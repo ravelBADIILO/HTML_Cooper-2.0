@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+    <style>
+        body{
+            background-color: #D1E8E2;
+        }
+        h1{
+            color: #19747E;
+            text-align:center;
+        }
+        tr, td{
+            border:1px solid #A9D6E5;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Form Element</h1>
+    </header>
+    <hr>
+    <table>
+        <tbody>
+            <thead>
+                <!--FIRST ROW-->
+                <tr>
+                    <td>First Name</td>
+                    <td><input type = "text" id = "frame" name = "frame" value = "Enter your First Name"></td>
+                </tr>
+            </thead>
+            <!--SECOND ROW-->
+              <tr>
+                    <td>Last Name</td>
+                    <td><input type = "text" id = "frame" name = "frame" value = "Enter your Last Name"></td>
+            </tr>
+
+            <tr>
+                <td colspan = "2">FEEDBACK</td>
+            </tr>
+
+            <tr>
+                <td colspan = "2"><textarea name = "messege" rows = "8" cols = "60">The cat was playing in the garden</textarea></td>
+            </tr>
+
+            <tr>
+                <td><button type = "submit">SUBMIT</button></td>
+                <td><button type = "reset">RESET</button></td>
+            </tr>
+
+            <tr>
+                <td colspan = "2"></calspan><input type="radio" id="html" name="fav_language" value="HTML"><label for="html">HTML</label><br>
+                <input type = "radio" id = "java"name = "fav_language" value = "java"><label for = "java">JAVA</label><br>
+                <input type = "radio" id = "python"name = "fav_language" value = "python"><label for = "python">PYTHON</label><br>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
